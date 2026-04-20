@@ -5,7 +5,7 @@ const Section = () => {
         <p className="mb-3">Text:</p>
         <input
           type="text"
-          className="w-full h-10 bg-white border border-gray-200 outline-none p-3"
+          className="w-full h-13 bg-white border border-gray-200 outline-none p-3"
         />
       </div>
       <div className="mt-3">
