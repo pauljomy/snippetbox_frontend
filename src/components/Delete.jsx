@@ -1,6 +1,6 @@
 const Delete = ({ deleteIn, setDeleteIn }) => {
   return (
-    <div className="flex gap-12 max-w-4xl w-full mx-auto mt-5 text-xl">
+    <div className="flex gap-12 max-w-3xl w-full mx-auto mt-5 text-xl">
       <span>Delete in:</span>
       <label>
         <input

@@ -1,6 +1,6 @@
 const Section = () => {
   return (
-    <section className="max-w-4xl mx-auto mt-15 text-xl">
+    <section className="max-w-3xl mx-auto mt-10 text-xl">
       <div className="mb-5">
         <p className="mb-3">Text:</p>
         <input

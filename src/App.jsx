@@ -13,7 +13,7 @@ const App = () => {
       <NavBar />
       <Section />
       <Delete deleteIn={deleteIn} setDeleteIn={setDeleteIn} />
-      <div className="max-w-4xl mx-auto mt-10">
+      <div className="max-w-3xl mx-auto mt-8">
         <button className="px-4 py-3 bg-green-500 text-xl text-white rounded-sm">
           Publish Snippet
         </button>
