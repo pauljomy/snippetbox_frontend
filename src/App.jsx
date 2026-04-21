@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.jsx";
 import { useState } from "react";
 import CreateSnippet from "./pages/CreateSnippet.jsx";
 import { Route, Routes } from "react-router";
+import Logout from "./pages/Logout.jsx";
 
 const App = () => {
   const [deleteIn, setDeleteIn] = useState();
@@ -19,6 +20,7 @@ const App = () => {
             <CreateSnippet deleteIn={deleteIn} setDeleteIn={setDeleteIn} />
           }
         />
+        <Route path="/logout" element={<Logout />} />
       </Routes>
     </div>
   );
