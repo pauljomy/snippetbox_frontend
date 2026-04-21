@@ -1,8 +1,9 @@
 const Home = () => {
   return (
-    <span className="hover:text-green-600 hover:underline cursor-pointer">
-      Home
-    </span>
+    <div className="max-w-3xl mx-auto mt-10 text-xl">
+      <h2 className="font-bold text-xl text-gray-700">Latest Snippets</h2>
+      <p className="text-xl mt-10">Nothing to see here yet.</p>
+    </div>
   );
 };
 

@@ -3,5 +3,13 @@
 @import "tailwindcss";
 
 * {
-  font-family: "Ubuntu Mono", monospace;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #f2f3f7;
 }
