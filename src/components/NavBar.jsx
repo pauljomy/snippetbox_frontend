@@ -1,6 +1,3 @@
-import Home from "@/pages/Home.jsx";
-import CreateSnippet from "@/pages/CreateSnippet.jsx";
-import Logout from "@/pages/Logout.jsx";
 import MenuButton from "./MenuButton";
 import { Link } from "react-router";
 
