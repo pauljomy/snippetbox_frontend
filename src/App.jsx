@@ -29,21 +29,28 @@ const App = () => {
   }, []);
 
   return (
-    <div className="min-h-screen text-[#6B6E76] w-full">
+    <div className="min-h-screen text-[#6B6E76] w-full flex flex-col">
       <Header />
       <NavBar />
-      <Routes>
-        <Route
-          path="/"
-          element={<Home snippets={snippets} setSnippets={setSnippets} />}
-        />
-        <Route path="/snippet/create" element={<CreateSnippet />} />
-        <Route
-          path="/snippet/view/:id"
-          element={<SnippetView snippets={snippets} />}
-        />
-        <Route path="/logout" element={<Logout />} />
-      </Routes>
+      <div className="flex-1">
+        <Routes>
+          <Route
+            path="/"
+            element={<Home snippets={snippets} setSnippets={setSnippets} />}
+          />
+          <Route path="/snippet/create" element={<CreateSnippet />} />
+          <Route
+            path="/snippet/view/:id"
+            element={<SnippetView snippets={snippets} />}
+          />
+          <Route path="/logout" element={<Logout />} />
+        </Routes>
+      </div>
+      <div className="w-full h-15 bg-[#F8FAFB] border-t border-gray-200 flex items-center justify-center text-xl mt-auto">
+        <p>
+          Powered by <span className="text-green-600"> Go </span> (2026)
+        </p>
+      </div>
     </div>
   );
 };
